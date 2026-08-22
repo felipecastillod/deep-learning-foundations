@@ -11,13 +11,13 @@ Educational lab covering the foundations of Deep Learning, from perceptrons to t
 
 This repository contains educational notebooks designed to support the learning and teaching of Deep Learning concepts through theory, implementation, and practical examples.
 
-The material follows a progressive learning path, starting from artificial neurons and advancing toward modern neural network architectures.
+The material follows a progressive learning path, starting from artificial neurons and advancing toward modern neural network architectures used in computer vision, sequence modeling, and generative AI.
 
 ---
 
 ## Learning Path
 
-### Module 1 — Foundations
+### Module 1 — Neural Foundations
 
 - Perceptron
 - Multilayer Perceptron (MLP)
@@ -25,30 +25,37 @@ The material follows a progressive learning path, starting from artificial neuro
 - Backpropagation
 - Gradient Descent
 
-### Module 2 — Deep Neural Networks
+### Module 2 — Feed Forward Deep Networks
 
 - Fully Connected Networks
 - Optimization Techniques
 - Regularization
+- Model Evaluation
 
-### Module 3 — Computer Vision
+### Module 3 — Computer Vision with CNNs
 
 - Convolutional Neural Networks (CNN)
 - Feature Maps
-- Pooling
+- Pooling Layers
 - Image Classification
 
-### Module 4 — Sequence Models
+### Module 4 — Sequential Deep Learning
 
 - Recurrent Neural Networks (RNN)
 - Long Short-Term Memory (LSTM)
-- Sequence Processing
+- Sequence Modeling
 
-### Module 5 — Attention and Transformers
+### Module 5 — Attention Mechanisms
 
-- Attention Mechanisms
+- Attention
 - Self-Attention
+- Encoder–Decoder Architectures
+
+### Module 6 — Transformers and Generative AI
+
 - Transformer Architecture
+- Large Language Models (LLMs)
+- Generative AI Foundations
 
 ---
 
