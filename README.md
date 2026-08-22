@@ -31,13 +31,20 @@ The material follows a progressive learning path, starting from artificial neuro
 - Optimization Techniques
 - Regularization
 
-### Module 3 — Sequence Models
+### Module 3 — Computer Vision
+
+- Convolutional Neural Networks (CNN)
+- Feature Maps
+- Pooling
+- Image Classification
+
+### Module 4 — Sequence Models
 
 - Recurrent Neural Networks (RNN)
 - Long Short-Term Memory (LSTM)
 - Sequence Processing
 
-### Module 4 — Attention and Transformers
+### Module 5 — Attention and Transformers
 
 - Attention Mechanisms
 - Self-Attention
