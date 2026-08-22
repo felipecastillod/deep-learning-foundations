@@ -1,6 +1,3 @@
-# deep-learning-foundations
-Educational notebooks covering the foundations of Deep Learning, from perceptrons to transformers.
-
 # Deep Learning Foundations
 
 Educational lab covering the foundations of Deep Learning, from perceptrons to transformers.
