@@ -1,8 +1,8 @@
 # Deep Learning Foundations
 
-## Módulo 0: Perceptrón
+## Módulo 1
 
-### Descripción
+### Descripción Perceptrón
 
 Este notebook presenta la construcción e implementación de un Perceptrón utilizando Python y el dataset Iris. El objetivo es comprender los fundamentos de las redes neuronales artificiales a través del modelo más simple de neurona artificial.
 
