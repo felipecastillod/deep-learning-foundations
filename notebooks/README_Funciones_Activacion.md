@@ -1,7 +1,5 @@
 # Funciones de Activación: Introduciendo la No Linealidad en Deep Learning
 
----
-
 ## Descripción
 
 Las funciones de activación constituyen uno de los componentes más importantes de una red neuronal artificial.
@@ -11,8 +9,6 @@ Después de que una neurona calcula una combinación lineal de sus entradas, la 
 Sin funciones de activación, incluso una red neuronal con múltiples capas sería matemáticamente equivalente a un modelo lineal simple, limitando severamente su capacidad de aprendizaje.
 
 Este notebook explora las funciones de activación más relevantes en la historia del Deep Learning y analiza cómo cada una de ellas contribuyó a resolver desafíos específicos asociados al entrenamiento de redes neuronales profundas.
-
----
 
 ## ¿Por qué son importantes?
 
@@ -30,8 +26,6 @@ requieren modelos capaces de representar patrones complejos imposibles de captur
 
 Las funciones de activación son precisamente el mecanismo que introduce esta capacidad de modelado no lineal.
 
----
-
 ## Objetivos de Aprendizaje
 
 Al finalizar este notebook serás capaz de:
@@ -43,8 +37,6 @@ Al finalizar este notebook serás capaz de:
 - Entender los conceptos de Vanishing Gradient y Dead ReLU.
 - Reconocer la evolución histórica de las funciones de activación modernas.
 
----
-
 ## Funciones Estudiadas
 
 ### Sigmoid
@@ -55,8 +47,6 @@ Su principal característica consiste en transformar cualquier valor real en una
 
 Aunque tuvo una enorme relevancia histórica, presenta problemas de saturación que dificultan el entrenamiento de redes profundas.
 
----
-
 ### Tanh
 
 La función Tangente Hiperbólica fue desarrollada para superar algunas limitaciones de Sigmoid.
@@ -64,8 +54,6 @@ La función Tangente Hiperbólica fue desarrollada para superar algunas limitaci
 Su salida se encuentra centrada en cero, lo que facilita la propagación de gradientes y mejora la estabilidad del entrenamiento.
 
 Durante muchos años fue ampliamente utilizada en redes neuronales multicapa y arquitecturas recurrentes.
-
----
 
 ### ReLU
 
@@ -75,8 +63,6 @@ Su simplicidad matemática permite entrenar redes significativamente más profun
 
 La adopción masiva de ReLU fue uno de los factores que impulsó el renacimiento moderno de las redes neuronales profundas a partir de la década de 2010.
 
----
-
 ### Leaky ReLU
 
 Leaky ReLU surge como una mejora de ReLU.
@@ -84,8 +70,6 @@ Leaky ReLU surge como una mejora de ReLU.
 Introduce una pequeña pendiente para valores negativos, evitando que ciertas neuronas queden permanentemente inactivas durante el entrenamiento.
 
 Esta modificación contribuye a mantener el flujo de gradientes y mejorar la capacidad de aprendizaje del modelo.
-
----
 
 ## Problemas Clave Analizados
 
@@ -97,8 +81,6 @@ Cuando esto ocurre, las capas profundas reciben muy poca información para actua
 
 Este fenómeno fue uno de los principales obstáculos para el desarrollo temprano del Deep Learning.
 
----
-
 ### Dead ReLU
 
 Las neuronas basadas en ReLU pueden quedar atrapadas permanentemente en la región negativa de la función.
@@ -106,8 +88,6 @@ Las neuronas basadas en ReLU pueden quedar atrapadas permanentemente en la regi�
 Cuando esto ocurre dejan de actualizar sus pesos y dejan de contribuir al aprendizaje de la red.
 
 Este problema motivó el desarrollo de variantes como Leaky ReLU, Parametric ReLU y otras funciones modernas.
-
----
 
 ## Evolución hacia Arquitecturas Modernas
 
@@ -124,8 +104,6 @@ Sin embargo, comprender Sigmoid, Tanh, ReLU y Leaky ReLU continúa siendo fundam
 ---
 
 ## Autor
-
-[svg](https://github.com/felipecastillod/deep-learning-foundations/blob/main/notebooks/README_MLP.md#autor)
 
 **Felipe Castillo Ducaud**
 
