@@ -2,15 +2,11 @@
 
 Educational lab covering the foundations of Deep Learning, from perceptrons to transformers.
 
----
-
 ## Overview
 
 This repository contains educational notebooks designed to support the learning and teaching of Deep Learning concepts through theory, implementation, and practical examples.
 
 The material follows a progressive learning path, starting from artificial neurons and advancing toward modern neural network architectures used in computer vision, sequence modeling, and generative AI.
-
----
 
 ## Learning Path
 
@@ -54,8 +50,6 @@ The material follows a progressive learning path, starting from artificial neuro
 - Large Language Models (LLMs)
 - Generative AI Foundations
 
----
-
 ## Technologies
 
 - Python
@@ -66,8 +60,6 @@ The material follows a progressive learning path, starting from artificial neuro
 - Keras
 - Google Colab
 
----
-
 ## Intended Audience
 
 - Students
@@ -77,8 +69,10 @@ The material follows a progressive learning path, starting from artificial neuro
 
 ---
 
-## Author
+## Autor
 
-Felipe Castillo Ducaud
+**Felipe Castillo Ducaud**
 
-Executive Scholar | Artificial Intelligence | Digital Transformation | Research • Industry • Education
+Founder & Editor — Industrial AI Review (IIAR)
+
+MBA | Artificial Intelligence | Deep Learning | Industrial Digital Transformation
