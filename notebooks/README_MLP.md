@@ -1,7 +1,5 @@
 # Perceptrón Multicapa (MLP): Introducción a las Redes Neuronales Feed Forward
 
----
-
 ## Descripción
 
 El Perceptrón Multicapa (Multilayer Perceptron, MLP) representa la evolución natural del perceptrón simple y constituye una de las arquitecturas fundamentales del Deep Learning moderno.
@@ -9,8 +7,6 @@ El Perceptrón Multicapa (Multilayer Perceptron, MLP) representa la evolución n
 Mientras que un perceptrón puede resolver únicamente problemas linealmente separables, un MLP incorpora una o más capas ocultas que permiten modelar relaciones no lineales y aprender patrones significativamente más complejos.
 
 Este notebook presenta la construcción y entrenamiento de una red neuronal Feed Forward utilizando TensorFlow/Keras sobre el dataset MNIST, uno de los conjuntos de datos más utilizados para la enseñanza de Redes Neuronales Artificiales.
-
----
 
 ## ¿Por qué es importante un MLP?
 
@@ -28,8 +24,6 @@ requieren arquitecturas capaces de aprender representaciones más complejas de l
 
 El MLP fue una de las primeras arquitecturas capaces de superar las limitaciones del perceptrón tradicional y sentó las bases para el desarrollo de las redes neuronales profundas actuales.
 
----
-
 ## Objetivos de Aprendizaje
 
 Al finalizar este notebook serás capaz de:
@@ -41,8 +35,6 @@ Al finalizar este notebook serás capaz de:
 - Comprender el proceso de entrenamiento mediante Backpropagation.
 - Analizar métricas de desempeño de una red neuronal.
 - Realizar predicciones sobre datos no observados durante el entrenamiento.
-
----
 
 ## Dataset Utilizado
 
@@ -61,8 +53,6 @@ Contiene imágenes de dígitos manuscritos desde el 0 hasta el 9.
 | Tipo de problema | Clasificación multiclase |
 
 Cada imagen se transforma en un vector de 784 características (28 × 28 píxeles) que será utilizado como entrada para la red neuronal.
-
----
 
 ## Arquitectura Implementada
 
@@ -92,8 +82,6 @@ Recibe los píxeles de cada imagen.
 
 Cada neurona representa la probabilidad de pertenencia a uno de los diez dígitos posibles.
 
----
-
 ## Flujo de Información
 
 ```text
@@ -112,8 +100,6 @@ Probabilidades Softmax
 Predicción Final
 ```
 
----
-
 ## Conceptos Fundamentales
 
 ### Feed Forward
@@ -122,15 +108,11 @@ La información avanza únicamente desde la entrada hacia la salida.
 
 No existen ciclos ni retroalimentación entre neuronas.
 
----
-
 ### Función de Activación ReLU
 
 La función ReLU (Rectified Linear Unit) introduce no linealidad en la red neuronal.
 
 Gracias a ella, el modelo puede aprender relaciones complejas presentes en los datos.
-
----
 
 ### Softmax
 
@@ -138,21 +120,15 @@ Convierte las salidas de la última capa en probabilidades.
 
 La suma de todas las probabilidades generadas es igual a 1.
 
----
-
 ### Backpropagation
 
 Algoritmo utilizado para ajustar los pesos de la red neuronal.
 
 Propaga el error desde la salida hacia las capas anteriores permitiendo mejorar progresivamente el aprendizaje.
 
----
-
 ### Descenso por Gradiente
 
 Método de optimización encargado de minimizar el error del modelo actualizando los pesos en cada iteración.
-
----
 
 ## Entrenamiento del Modelo
 
