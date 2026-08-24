@@ -172,47 +172,10 @@ Estas métricas permiten evaluar la capacidad de aprendizaje del modelo a lo lar
 
 ---
 
-## Relación con el Módulo 1
-
-Este notebook corresponde al segundo paso dentro de los fundamentos de Redes Neuronales Artificiales.
-
-```text
-Perceptrón
-      ↓
-Perceptrón Multicapa (MLP)
-      ↓
-Funciones de Activación
-      ↓
-Backpropagation
-      ↓
-Gradient Descent
-      ↓
-Deep Learning
-```
-
-Comprender esta secuencia resulta fundamental para avanzar hacia arquitecturas más complejas como Redes Convolucionales (CNN), Redes Recurrentes (RNN) y Transformers.
-
----
-
-## Estructura del Proyecto
-
-```text
-deep-learning-foundations/
-
-├── notebooks/
-│   ├── 0_2_Multilayer_Perceptron_(MLP).ipynb
-│   └── README_MLP.md
-│
-└── images/
-    └── Image_MLP_FeedForward.png
-```
-
----
-
 ## Autor
 
 **Felipe Castillo Ducaud**
 
 Founder & Editor — Industrial AI Review (IIAR)
 
-PhD Researcher | Artificial Intelligence | Deep Learning | Industrial Digital Transformation
+MBA | Artificial Intelligence | Deep Learning | Industrial Digital Transformation
