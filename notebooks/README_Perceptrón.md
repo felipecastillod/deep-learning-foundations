@@ -34,3 +34,13 @@ Este notebook presenta la construcción e implementación de un Perceptrón util
 - Rosenblatt, F. (1958). The Perceptron.
 - Goodfellow, Bengio & Courville (2016). Deep Learning.
 - Bishop (2006). Pattern Recognition and Machine Learning.
+
+---
+
+## Autor
+
+**Felipe Castillo Ducaud**
+
+Founder & Editor — Industrial AI Review (IIAR)
+
+MBA | Artificial Intelligence | Deep Learning | Industrial Digital Transformation
